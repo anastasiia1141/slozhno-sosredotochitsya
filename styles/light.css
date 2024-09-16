@@ -10,11 +10,12 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --bg-img: url(../images/cover-image-light.png);
+  --color-subtitle: #000028;
   --color-title: #ffc2e6;
   --color-bg-text: #ff8dcb;
   --color-text-shadow: #ff0070;
   --color-text: #000028;
-  --color-subtitle-top: #353430; 
+  --color-subtitle-top: #353430;
   --color-title-color: #000028;
   --decor-color: #353430;
   --text-link: #ff8dcb;
@@ -33,9 +34,17 @@
 @media (width <=768px) {
   .title__top {
     color: var(--color-title);
-  text-shadow: 4px 4px 0 var(--color-bg-text);
+    text-shadow: 4px 4px 0 var(--color-bg-text);
   }
 }
+
+@media (width <=768px) {
+  .title__footer {
+    color: var(--color-title);
+    text-shadow: 4px 4px 0 var(--color-bg-text);
+  }
+}
+
 
 .page.theme_light .rec {
   display: none;
@@ -43,10 +52,7 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-  --rec-visibility: hidden;
+    --rec-visibility: hidden;
   }
 
 }
-
-
-
