@@ -1,6 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
+  background-color: var(--bg-color);
   font-family: var(--font-family);
   background-image: var(--bg-img);
   background-repeat: no-repeat;
@@ -367,6 +368,12 @@
   background-color: var(--color-bg-text);
 }
 
+@media (width < 768px) {
+  .how__title__column {
+    margin-block-end: 5px;
+  }
+}
+
 .how__title {
   min-width: 315px;
   color: var(--color-subtitle);
@@ -407,7 +414,6 @@
   }
 }
 
-
 @media (width < 768px) {
   .how__use {
     margin-bottom: 50px;
@@ -416,6 +422,12 @@
 
 .images {
   margin-bottom: 60px;
+}
+
+@media (width < 768px) {
+  .images {
+    margin-bottom: 40px;
+  }
 }
 
 .images__container {
