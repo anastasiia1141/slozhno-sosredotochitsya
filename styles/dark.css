@@ -32,8 +32,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-img: url(../images/cover-image-dark.png);
     --bg-color: #00183F;
+    --bg-img: url(../images/cover-image-dark.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
