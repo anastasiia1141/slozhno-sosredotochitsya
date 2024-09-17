@@ -3,7 +3,8 @@
 .page {
   background-color: var(--bg-color);
   font-family: var(--font-family);
-  background-image: url(../images/cover-image-light.png);
+  background-image:var(--bg-img);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

@@ -9,7 +9,7 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  background-image: url(../images/cover-image-light.png);
+  --bg-img: url(../images/cover-image-light.png);
   --color-subtitle: #000028;
   --color-title: #ffc2e6;
   --color-bg-text: #ff8dcb;
@@ -19,10 +19,11 @@
   --color-title-color: #000028;
   --decor-color: #353430;
   --text-link: #ff8dcb;
-  --bg-color: #ffc2e6;
+  --bg-color: #fff1f7;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
   --rec-visibility: hidden;
 }
 
@@ -54,5 +55,4 @@
   :root {
     --rec-visibility: hidden;
   }
-
 }
