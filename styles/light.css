@@ -53,6 +53,7 @@
 
 @media (prefers-color-scheme: light) {
   :root {
+    --bg-img: url(../images/cover-image-light.png);
     --rec-visibility: hidden;
   }
 }
