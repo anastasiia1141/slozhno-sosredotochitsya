@@ -21,7 +21,7 @@
   --decor-color: #ff0070;
   --color-rec: #ff0070;
   --bg-img: url(../images/cover-image-dark.png);
-  --bg-color: #00183F;
+  --bg-color: #000028;
   color: var(--colorPink4);
   background-repeat: no-repeat;
   background-size: cover;
@@ -33,7 +33,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-img: url(../images/cover-image-dark.png);
-    --bg-color: #00183F;
+    --bg-color: #000028;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
