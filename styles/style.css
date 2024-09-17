@@ -10,6 +10,14 @@
   background-attachment: fixed;
 }
 
+h3 {
+  line-height: 23px;
+}
+
+h2{
+  line-height: 23px;
+}
+
 .header {
   margin-bottom: 60px;
   padding-right: 20px;
@@ -89,13 +97,7 @@
 }
 
 
-h3 {
-  line-height: 23px;
-}
 
-h2{
-  line-height: 23px;
-}
 
 .header__theme-menu-list {
   display: flex;

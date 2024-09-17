@@ -28,6 +28,8 @@
   background-attachment: fixed;
   background-position: center;
   --rec-visibility: visible;
+
+  
 }
 
 @media (prefers-color-scheme: dark) {
