@@ -18,10 +18,12 @@ h2 {
   line-height: 23px;
 }
 
+
 .header {
-  margin-left: -20px;
   margin-bottom: 60px;
-padding: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   gap: 160px;
   display: grid;
   position: relative;
@@ -79,7 +81,7 @@ padding: 20px;
   position: absolute;
   text-transform: uppercase;
   top: 20px;
-  right: 25px;
+  right: 20px;
   color: var(--color-rec);
   visibility: var(--rec-visibility);
 }
@@ -492,7 +494,7 @@ section {
 .title__footer {
   line-height: 129px;
   color: var(--color-title);
-  text-shadow: 4px 4px 0 var(--color-text-shadow);
+  text-shadow: 2px 2px 0 var(--color-text-shadow);
   font-family: 'IBM Plex Mono', sans-serif;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }
