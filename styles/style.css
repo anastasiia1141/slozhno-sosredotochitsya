@@ -1,7 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  background-image:var(--bg-img);
+  background-image: var(--bg-img);
   background-color: var(--bg-color);
   font-family: var(--font-family);
   background-position: center;
@@ -14,15 +14,14 @@ h3 {
   line-height: 23px;
 }
 
-h2{
+h2 {
   line-height: 23px;
 }
 
 .header {
+  margin-left: -20px;
   margin-bottom: 60px;
-  padding-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+padding: 20px;
   gap: 160px;
   display: grid;
   position: relative;
@@ -168,8 +167,8 @@ h2{
 @media (width <=768px) {
   .titles {
     padding-bottom: 50px;
-        gap: 165px;
-        padding-top: 65px;
+    gap: 165px;
+    padding-top: 65px;
   }
 }
 
@@ -196,15 +195,16 @@ h2{
   }
 }
 
-.main {
+section {
   padding: 0 20px;
 }
 
 @media (width <768px) {
-  .main {
+  section {
     padding: 0 10px;
   }
 }
+
 
 .content {
   margin-bottom: 80px;
@@ -500,13 +500,13 @@ h2{
 @media (width <=768px) {
   .title__footer {
     line-height: 99px;
-    
+
   }
 }
 
 @media (width < 768px) {
   .title__footer {
     line-height: 95px;
-    
+
   }
 }
