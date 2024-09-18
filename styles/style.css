@@ -18,17 +18,14 @@ h2 {
   line-height: 23px;
 }
 
-p {
-  line-height: 23px;
-}
 
 
 .header {
+  grid-template-rows: 1fr min-content 1fr;
   margin-bottom: 60px;
   padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
-  gap: 160px;
   display: grid;
   position: relative;
   min-height: 100vh;
@@ -36,7 +33,6 @@ p {
 
 @media (width <=768px) {
   .header {
-    gap: 0;
     padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -101,14 +97,28 @@ p {
   height: 12px;
 }
 
+.header__theme-menu-button:hover {
+  border-color: var(--focus-color);
+}
+
+.header__theme-menu-button:focus {
+  outline: 0;
+}
+
+.header__theme-menu-button:focus-visible {
+  border-bottom: currentColor;
+}
 
 
+.header__theme-menu {
+  justify-self: center;
+}
 
 .header__theme-menu-list {
+  padding-left: 20px;
   display: flex;
   gap: 10px;
-  flex-direction: row;
-  justify-content: center;
+  font-size: 18px;
 }
 
 .header__theme-menu-button {
@@ -127,19 +137,29 @@ p {
 }
 
 @media (width <=768px) {
+  .header__theme-menu {
+    align-self: center;
+    justify-self: flex-end;
+  }
+}
+
+@media (width < 768px) {
+  .header__theme-menu {
+    padding-bottom: 15px;
+    align-self: center;
+    justify-self: flex-end;
+  }
+}
+
+@media (width <=768px) {
   .header__theme-menu-list {
-    padding-top: 170px;
-    display: flex;
-    align-items: flex-end;
+
     flex-direction: column;
   }
 }
 
 @media (width < 768px) {
   .header__theme-menu-list {
-    padding-top: 55px;
-    display: flex;
-    align-items: flex-end;
     flex-direction: column;
   }
 }
@@ -164,34 +184,14 @@ p {
   }
 }
 
-.titles {
-  display: flex;
-  flex-direction: column;
-  gap: 114px;
-}
-
-@media (width <=768px) {
-  .titles {
-    padding-bottom: 50px;
-    gap: 165px;
-    padding-top: 65px;
-  }
-}
-
-@media (width <768px) {
-  .titles {
-    padding-bottom: 40px;
-    gap: 60px;
-  }
-}
-
 .subtitle__top {
+  justify-self: end;
   font-size: 18px;
   font-family: inherit;
   color: var(--color-subtitle-top, #353430);
   background-color: var(--color-bg-text);
   max-width: 491px;
-  align-self: flex-end;
+  align-self: center;
 }
 
 @media (width <=768px) {
@@ -225,7 +225,6 @@ section {
     margin-bottom: 50px;
   }
 }
-
 
 @media (width < 768px) {
   .content {
@@ -385,8 +384,6 @@ section {
   font-size: 18px;
   background-color: var(--color-bg-text);
 }
-
-
 
 .how__title {
   min-width: 315px;
