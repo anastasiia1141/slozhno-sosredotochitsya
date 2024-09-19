@@ -25,7 +25,8 @@
   --text-link: #ff8dcb;
   --bg-color: #fff1f7;
   --rec-visibility: hidden;
-  --focus-color: #353430;
+  --hover-color: #32312D66;
+
 }
 
 .title__top {
@@ -43,10 +44,9 @@
 @media (width <=768px) {
   .title__footer {
     color: var(--color-title);
-    text-shadow: 4px 4px 0 var(--color-bg-text);
+    text-shadow: 2px 2px 0 var(--color-bg-text);
   }
 }
-
 
 .page.theme_light .rec {
   display: none;
