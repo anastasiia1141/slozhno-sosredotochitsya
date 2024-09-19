@@ -17,9 +17,7 @@
 .header {
   grid-template-rows: 1fr min-content 1fr;
   margin-bottom: 60px;
-  padding-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 0 20px 20px 20px;
   display: grid;
   min-height: 668px;
   height: 100vh;
@@ -117,7 +115,7 @@
 
 .header__theme-menu-button:hover {
   border: 1px solid var(--hover-color);
-  
+
 }
 
 .header__theme-menu-button:focus {
@@ -139,6 +137,11 @@
   font-size: 18px;
 }
 
+.header__theme-menu-button_active {
+  border: 1px solid var(--color-subtitle);
+  pointer-events: none;
+}
+
 .header__theme-menu-button {
   cursor: pointer;
   font-family: var(--font-family);
@@ -148,11 +151,6 @@
   color: var(--color-subtitle);
   background-color: transparent;
   text-transform: lowercase;
-}
-
-.header__theme-menu-button_active {
-  border: 1px solid var(--color-subtitle);
-  pointer-events: none;
 }
 
 @media (width <=768px) {
@@ -378,8 +376,8 @@ section {
   background-color: var(--color-bg-text);
 }
 
-.subtitle__content-title{
-font-weight: 400;
+.subtitle__content-title {
+  font-weight: 400;
 }
 
 .title__image {
@@ -388,7 +386,6 @@ font-weight: 400;
   font-size: 18px;
   background-color: var(--color-bg-text);
 }
-
 
 .images {
   margin-bottom: 60px;

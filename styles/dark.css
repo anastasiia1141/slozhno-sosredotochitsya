@@ -24,7 +24,6 @@
   --bg-color: #000028;
   --rec-visibility: visible;
   --hover-color: #FF007066;
-  
 }
 
 @media (prefers-color-scheme: dark) {
@@ -47,4 +46,3 @@
     --color-subtitle-top: #353430;
   }
 }
-
