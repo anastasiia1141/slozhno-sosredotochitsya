@@ -29,25 +29,6 @@
 
 }
 
-.title__top {
-  color: var(--color-title);
-  text-shadow: 4px 4px 0 var(--color-text-shadow);
-}
-
-@media (width <=768px) {
-  .title__top {
-    color: var(--color-title);
-    text-shadow: 4px 4px 0 var(--color-bg-text);
-  }
-}
-
-@media (width <=768px) {
-  .title__footer {
-    color: var(--color-title);
-    text-shadow: 2px 2px 0 var(--color-bg-text);
-  }
-}
-
 .page.theme_light .rec {
   display: none;
 }
