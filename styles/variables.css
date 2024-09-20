@@ -3,6 +3,10 @@
   и их переопределение под различные устройства
 */
 :root {
+  --color-button: #353430;
+  --color-subtitle-top: #353430;
+  --decor-color: #353430;
+  --color-subtitle: #353430;
   --color-bg-text: #ff8dcb;
   --color-title: #ffc2e6;
   --color-text-shadow: #ff0070;
@@ -17,4 +21,5 @@
   --bg-color: #fff1f7;
   --bg-img: url(../images/cover-image-light.png);
   --hover-color: #32312D66;
+  --focus-visible: #353430;
 }
